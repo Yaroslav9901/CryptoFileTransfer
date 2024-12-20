@@ -1,0 +1,2 @@
+21:16:06.365 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+21:16:11.934 [AWT-EventQueue-0] WARN  utils.LoggerConfig - Файл не был выбран пользователем.

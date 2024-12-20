@@ -1,0 +1,131 @@
+дек. 20, 2024 8:18:53 PM App.MainApp$1 actionPerformed
+INFO: Файл выбран: C:\Users\dreml\IdeaProjects\1Project\received_text.txt
+дек. 20, 2024 8:19:06 PM App.MainApp$4 actionPerformed
+INFO: Файл успешно отправлен.
+дек. 20, 2024 8:19:11 PM App.MainApp$4 actionPerformed
+INFO: Файл успешно отправлен.
+дек. 20, 2024 8:19:25 PM App.MainApp$4 actionPerformed
+INFO: Файл успешно отправлен.
+дек. 20, 2024 8:21:22 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер запускается...
+дек. 20, 2024 8:21:26 PM App.MainApp$3 lambda$actionPerformed$0
+WARNING: Перед запуском клиента нужно запустить сервер.
+дек. 20, 2024 8:21:31 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер запускается...
+дек. 20, 2024 8:21:31 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер ожидает подключения клиента...
+дек. 20, 2024 8:21:32 PM App.MainApp$3 lambda$actionPerformed$0
+WARNING: Перед запуском клиента нужно запустить сервер.
+дек. 20, 2024 8:21:46 PM App.MainApp$1 actionPerformed
+INFO: Файл выбран: C:\Users\dreml\IdeaProjects\1Project\received_text.txt
+дек. 20, 2024 8:21:49 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер запускается...
+дек. 20, 2024 8:21:49 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер ожидает подключения клиента...
+дек. 20, 2024 8:21:51 PM App.MainApp$3 lambda$actionPerformed$0
+INFO: Попытка подключения клиента...
+дек. 20, 2024 8:21:52 PM App.MainApp$3 lambda$actionPerformed$0
+INFO: Клиент успешно подключен.
+дек. 20, 2024 8:22:02 PM App.MainApp$4 actionPerformed
+INFO: Файл успешно отправлен.
+дек. 20, 2024 8:22:48 PM App.MainApp$1 actionPerformed
+INFO: Файл выбран: C:\Users\dreml\OneDrive\Рабочий стол\d99t\1Project\received_text.txt
+дек. 20, 2024 8:22:59 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер запускается...
+дек. 20, 2024 8:22:59 PM App.MainApp$2 lambda$actionPerformed$0
+INFO: Сервер ожидает подключения клиента...
+дек. 20, 2024 8:23:02 PM App.MainApp$3 lambda$actionPerformed$0
+INFO: Попытка подключения клиента...
+дек. 20, 2024 8:23:02 PM App.MainApp$3 lambda$actionPerformed$0
+INFO: Клиент успешно подключен.
+дек. 20, 2024 8:23:06 PM App.MainApp$4 actionPerformed
+INFO: Файл успешно отправлен.
+21:14:27.853 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+21:14:33.590 [AWT-EventQueue-0] WARN  utils.LoggerConfig - Файл не был выбран пользователем.
+22:10:41.236 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:12:49.234 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:15:57.240 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл выбран: C:\exampletext.txt
+22:16:37.276 [AWT-EventQueue-0] WARN  utils.LoggerConfig - Файл не был выбран пользователем.
+22:18:50.722 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:19:00.340 [AWT-EventQueue-0] WARN  utils.LoggerConfig - Файл не был выбран пользователем.
+22:23:09.168 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:24:46.831 [Thread-0] INFO  utils.LoggerConfig - Сервер запускается...
+22:24:46.833 [Thread-0] INFO  utils.LoggerConfig - Сервер запущен и ожидает подключения на порту 12345
+22:24:46.857 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+22:27:09.552 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:27:44.070 [Thread-0] INFO  utils.LoggerConfig - Сервер запускается...
+22:27:44.073 [Thread-0] INFO  utils.LoggerConfig - Сервер запущен и ожидает подключения на порту 12345
+22:27:44.084 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+22:27:48.337 [Thread-1] WARN  utils.LoggerConfig - Клиент не запущен, так как файл не выбран.
+22:27:59.058 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл выбран: C:\Users\dreml\OneDrive\Документы\лаба5 (1).docx
+22:28:01.903 [Thread-2] INFO  utils.LoggerConfig - Сервер запускается...
+22:28:01.904 [Thread-2] INFO  utils.LoggerConfig - Сервер запущен и ожидает подключения на порту 12345
+22:28:01.912 [Thread-2] ERROR utils.LoggerConfig - Ошибка при запуске сервера: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at server.Server.main(Server.java:33) ~[main/:?]
+	at App.MainApp$2.lambda$actionPerformed$0(MainApp.java:107) ~[main/:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+22:31:57.142 [Thread-3] INFO  utils.LoggerConfig - Клиент пытается подключиться с файлом: C:\Users\dreml\OneDrive\Документы\лаба5 (1).docx
+22:31:57.169 [Thread-0] INFO  utils.LoggerConfig - Клиент подключен: /127.0.0.1
+22:31:57.169 [Thread-3] INFO  utils.LoggerConfig - Соединение с сервером установлено.
+22:31:57.589 [Thread-3] INFO  utils.LoggerConfig - Файл зашифрован.
+22:31:57.934 [Thread-3] INFO  utils.LoggerConfig - Файл подписан.
+22:31:57.956 [Thread-3] ERROR utils.LoggerConfig - Ошибка при отправке данных серверу: encoded string (DeSwCk44...FGwIkQ==) too long: 7420824 bytes
+java.io.UTFDataFormatException: encoded string (DeSwCk44...FGwIkQ==) too long: 7420824 bytes
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:368) ~[?:?]
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:332) ~[?:?]
+	at client.Client.main(Client.java:58) ~[main/:?]
+	at App.MainApp$3.lambda$actionPerformed$0(MainApp.java:123) ~[main/:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+22:31:57.956 [Thread-0] ERROR utils.LoggerConfig - Ошибка при обработке данных клиента: null
+java.io.EOFException: null
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:346) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at server.Server.handleClient(Server.java:53) ~[main/:?]
+	at server.Server.main(Server.java:37) ~[main/:?]
+	at App.MainApp$2.lambda$actionPerformed$0(MainApp.java:107) ~[main/:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+22:31:57.957 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+22:34:12.039 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+22:34:25.902 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл выбран: C:\Users\dreml\MyAppData\received_data.txt
+22:34:30.991 [Thread-0] INFO  utils.LoggerConfig - Сервер запускается...
+22:34:30.992 [Thread-0] INFO  utils.LoggerConfig - Сервер запущен и ожидает подключения на порту 12345
+22:34:31.004 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+22:34:33.985 [Thread-1] INFO  utils.LoggerConfig - Клиент пытается подключиться с файлом: C:\Users\dreml\MyAppData\received_data.txt
+22:34:33.989 [Thread-1] INFO  utils.LoggerConfig - Соединение с сервером установлено.
+22:34:33.989 [Thread-0] INFO  utils.LoggerConfig - Клиент подключен: /127.0.0.1
+22:34:34.138 [Thread-1] INFO  utils.LoggerConfig - Файл зашифрован.
+22:34:34.335 [Thread-1] INFO  utils.LoggerConfig - Файл подписан.
+22:34:34.338 [Thread-1] INFO  utils.LoggerConfig - Файл отправлен серверу.
+22:34:34.345 [Thread-0] INFO  utils.LoggerConfig - Данные успешно расшифрованы.
+22:34:34.484 [Thread-0] INFO  utils.LoggerConfig - Цифровая подпись успешно проверена. Данные подлинны.
+22:34:34.486 [Thread-0] INFO  utils.LoggerConfig - Данные сохранены в файл: C:\Users\dreml\IdeaProjects\1Project\received_data.txt
+22:34:34.487 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+22:34:39.368 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл успешно отправлен.
+22:34:47.894 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл успешно отправлен.
+22:34:53.462 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл успешно отправлен.
+22:35:12.735 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл успешно отправлен.
+23:28:37.890 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Запуск приложение
+23:28:52.045 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл выбран: C:\Users\dreml\OneDrive\Рабочий стол\d99t\1Project\received_text.txt
+23:28:54.969 [Thread-0] INFO  utils.LoggerConfig - Сервер запускается...
+23:28:54.969 [Thread-0] INFO  utils.LoggerConfig - Сервер запущен и ожидает подключения на порту 12345
+23:28:54.985 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+23:28:57.405 [Thread-1] INFO  utils.LoggerConfig - Клиент пытается подключиться с файлом: C:\Users\dreml\OneDrive\Рабочий стол\d99t\1Project\received_text.txt
+23:28:57.417 [Thread-0] INFO  utils.LoggerConfig - Клиент подключен: /127.0.0.1
+23:28:57.419 [Thread-1] INFO  utils.LoggerConfig - Соединение с сервером установлено.
+23:28:57.711 [Thread-1] INFO  utils.LoggerConfig - Файл зашифрован.
+23:28:58.013 [Thread-1] INFO  utils.LoggerConfig - Файл подписан.
+23:28:58.014 [Thread-1] INFO  utils.LoggerConfig - Файл отправлен серверу.
+23:28:58.015 [Thread-0] INFO  utils.LoggerConfig - Данные успешно расшифрованы.
+23:28:58.166 [Thread-0] INFO  utils.LoggerConfig - Цифровая подпись успешно проверена. Данные подлинны.
+23:28:58.167 [Thread-0] INFO  utils.LoggerConfig - Данные сохранены в файл: C:\Users\dreml\IdeaProjects\1Project\received_data.txt
+23:28:58.167 [Thread-0] INFO  utils.LoggerConfig - Ожидание подключения клиента...
+23:29:02.988 [AWT-EventQueue-0] INFO  utils.LoggerConfig - Файл успешно отправлен.
