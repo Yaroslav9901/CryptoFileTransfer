@@ -2,7 +2,9 @@ package crypto;
 
 import java.security.*;
 import java.util.Base64;
-
+/**
+ * Класс SignatureService представляет собой реализацию сервиса, который осуществляет подпись документа.
+ */
 public class SignatureService implements Signature {
 
     private final PublicKey publicKey;
