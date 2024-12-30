@@ -5,7 +5,9 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
-
+/**
+ * Класс EncryptionService представляет собой реализацию интерфейса шифрования.
+ */
 public class EncryptionService implements Encryptor {
 
     private final SecretKey secretKey;
