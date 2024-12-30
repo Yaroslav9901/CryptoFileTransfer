@@ -9,7 +9,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-
+/**
+ * Класс MainApp представляет собой реализацию графического интерфейса клиент - сервисного приложения с реализацией функций.
+ */
 public class MainApp extends JFrame {
     private JButton startServerButton;
     private JButton startClientButton;
